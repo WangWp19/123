@@ -13,11 +13,26 @@
 
 4. lists
    		
-   		i. mutable.
-   		ii. append is a **method**,method very important in pythod. [1]_ 	
-   		iii. assignment has to do with th binding of names to objects.Mutation has to do with changing the value of objets.	    
+      i. mutable.
+      ii. append is a **method**,method very important in pythod. [1]_  
+      iii. assignment has to do with th binding of names to objects.Mutation has to do with changing the value of objets. 
+      iv. SO OK 
+
 
 6. dictionary
+      
+      i. a dictionary differs from a list in two ways.
+                - one the elements are not ordered.
+                - the indecies need not to be integers.
+                - and they are not called dicts,the **keys**
+                - keys can be any immtable type.  
+      
+      ii. the key must be immutable, the python use a very clever technique called hashing which would not work if the keys were mutable.    
+      
+                
+      
+
+
 
 
 
