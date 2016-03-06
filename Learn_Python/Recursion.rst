@@ -34,7 +34,7 @@ Tower of Hanoi
 
 #. if(n==1) ,{move it from tower 1 directly to tower 3}
    
-   **otherwise**
+   **otherwise** 
 
 #. move n-1 disks from tower 1 to tower 2,using tower 3 as temporary storage.
 #. move n from tower 1 to tower 3
@@ -59,10 +59,21 @@ Algorithm
 			endif
 		End
 
-** Assertions are a systematic way to check that the internal state of a program is as the programmer expected. **
+**Assertions are a systematic way to check that the internal state of a program is as the programmer expected.**
 
 
-	
-Recitation
-==========
+
+i. what is recursion? 
+
+     0) recursion, or 'divide-and-conquer',allow us to define a function that calls itself to solve a problem by checking it into simpler cases
+    
+ii. what is recursive case?
+
+     0) a recursive case calls the recursive procedure on a simpler cases(usually a part of the input)
+        
+iii. what is base case?
+
+     0) a base case is necessary in recursion; it determines when the procedure returns a value(or terminate),rather than continuing the recursive process. 
+    	
+
 
